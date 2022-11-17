@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevator System</title>
+    <link rel="stylesheet" href="elevator.css" />
+  </head>
+  <body>
+    <h2>The Elevator System</h2>
+    <div class="elevator">
+      <div class="lev2">
+        <div class="level2">Level 2<br /></div>
+        <div class="btn-lev2">
+          <button onclick="level2Down()">Down</button>
+        </div>
+      </div>
+      <div class="lev1">
+        <div class="level1">Level 1<br /></div>
+        <div class="btn-lev1">
+          <button onclick="lev1Up()">Up</button>
+          <button onclick="level1Down()">Down</button>
+        </div>
+      </div>
+      <div class="lev0">
+        <div class="level0" >
+          Level 0<br />
+          <img height="100px" src="elevator.jpg" id="img1" alt="" />
+        </div>
+        <div class="btn-lev0"><button onclick="up()">Up</button></div>
+      </div>
+    </div>
+
+    <script src="el.js"></script>
+  </body>
+</html>

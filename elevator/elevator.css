@@ -1,0 +1,51 @@
+.elevator{
+    display: flex;
+    flex-direction: column;
+
+  
+   width: 174px;
+
+}
+.level2{
+    border: solid;
+    width: 120px;
+    height: 140px;
+}
+.level1{
+    height: 140px;
+    border: solid;
+    width: 120px;
+}
+.level0{
+    position: relative;;
+    border: solid;
+    height: 140px;
+    width: 120px;
+}
+img{
+    position: relative;
+    margin-left: 15px;
+}
+.bttn{
+    display: flex;
+}
+.btn-lev2{
+    align-self: center;
+}
+.lev2{
+    display: flex
+}
+.lev1{
+    display: flex;
+    position: relative;
+    width: 300px;
+}
+.btn-lev1{
+    align-self: center;
+}
+.lev0{
+    display: flex;
+}
+.btn-lev0{
+    align-self: center;
+}
